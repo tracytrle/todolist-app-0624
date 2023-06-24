@@ -82,7 +82,7 @@ input[type="checkbox"] {
 }
 
 /* opacity and line-through */
-.task-list . .label {
+.task-list .done .label {
   opacity: 0.6;
   text-decoration: line-through;
 }

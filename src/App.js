@@ -44,8 +44,6 @@ function App() {
     tasks.filter((task) => task.id !== taskId);
   };
 
-  // const handleInComplete = (e) => {};
-
   return (
     <div className="container">
       <h1 className="title">
