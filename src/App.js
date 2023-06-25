@@ -44,7 +44,7 @@ function App() {
   };
 
   const removeTask = (taskId) => {
-    tasks.filter((task) => task.id !== taskId);
+    setTasks(tasks.filter((task) => task.id !== taskId));
   };
 
   return (
